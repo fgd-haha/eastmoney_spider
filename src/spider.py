@@ -87,7 +87,7 @@ def deduplication(data_list, type="north", date_str=str(datetime.date.today())):
                 else:
                     print(result_dict[code['SCODE']], end="\n")
                     print(code)
-                    print("*"*100)
+                    print("*" * 100)
 
     return result_dict
 
